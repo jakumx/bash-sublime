@@ -1,12 +1,3 @@
-aboutme
-=======
-
-* Josué
-* México
-* I like coding, Scout from childhood who enjoys camping, loves video games and Star Wars.
-* mx.linkedin.com/in/josvera/
-
-
 # Open Sublime on terminal(zsh) by custom command
 
 name_file.sh
