@@ -12,10 +12,18 @@ aboutme
 name_file.sh
 
     #!/bin/bash
-    PWD= pwd
-    open -a Sublime\ Text $PWD
-    
-edit .zshrc `$ vim ~/.zshrc`
+    if [ $1 ]
+    then
+      echo $1
+      open -a Sublime\ Text $1
+    else
+      PWD= pwd
+      open -a Sublime\ Text $PWD
+    fi
+
+set permission `chmod +x name_file.sh`
+
+add to .zshrc `$ vim ~/.zshrc`
    
     alias sublime="/path/to/file/name_file.sh"
     
